@@ -11,7 +11,7 @@
 </div>
 
 <div style="display: inline_block"><br>
-    <p>========================================================================================================</p>
+    <p>=============================================================================================</p>
     <img align="center" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-plain.svg">
     <img align="center" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bash/bash-plain.svg">
     <img align="center" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-plain.svg">
@@ -22,7 +22,7 @@
     <img align="center" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
     <img align="center" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-plain.svg">
     <script>alert("[+] HELLO WORLD [+]")</script>
-    <p>========================================================================================================</p>
+    <p>=============================================================================================</p>
 </div>
 <div>
     <p align="center">▂▃▅▇█▓▒░۩۞۩    [+] ___ dev@lawtech.adv.br was here ___ [+]    ۩۞۩░▒▓█▇▅▃▂</p>
