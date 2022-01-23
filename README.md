@@ -1,9 +1,9 @@
-### hello world, Im Gabriel@lawtech.adv.br 💻
+### hello world, Im Gabriel.backend@protonmail.com 💻
 
 - 🔭 I’m currently working on Front & Back-End ...
 - 🌱 I’m currently learning  Selenium & BeautifullSoup...
 - ⚡ Fun fact: Im just for terapy condictions ...
-- 📫 How to reach me: gabriel@lawtech.adv.br ...
+- 📫 How to reach me: gabriel.backend@protonmail.com ...
 <div>
     <a href="https://github.com/0fxdb">
     <img height="180em" src="https://github-readme-stats.vercel.app/api?username=0fxdb&show_icons=true&theme=highcontrast&include_all_commits=true&count_private=true"/>
@@ -25,7 +25,7 @@
     <p>========================================================================================</p>
 </div>
 <div>
-    <p align="center">▂▃▅▇█▓▒░۩۞۩    [+] ___ dev@lawtech.adv.br was here ___ [+]    ۩۞۩░▒▓█▇▅▃▂</p>
+    <p align="center">▂▃▅▇█▓▒░۩۞۩    [+] ___ Gabriel.backend@protonmail.com was here ___ [+]    ۩۞۩░▒▓█▇▅▃▂</p>
     <img height="100" width="100" src="https://lh3.googleusercontent.com/JAAMNM9TiD8hLj8f6kCtNJzuObpquEUeqpTngDnTw0HJtNk52X4U628cMqlHl_JhzgfQK-_42spBds3sWxtg6teZ_m1f_xSNSNEnqsw">
     <img height="100" width="100" src="https://lh3.googleusercontent.com/JAAMNM9TiD8hLj8f6kCtNJzuObpquEUeqpTngDnTw0HJtNk52X4U628cMqlHl_JhzgfQK-_42spBds3sWxtg6teZ_m1f_xSNSNEnqsw">
     <img height="100" width="100" src="https://lh3.googleusercontent.com/JAAMNM9TiD8hLj8f6kCtNJzuObpquEUeqpTngDnTw0HJtNk52X4U628cMqlHl_JhzgfQK-_42spBds3sWxtg6teZ_m1f_xSNSNEnqsw">
