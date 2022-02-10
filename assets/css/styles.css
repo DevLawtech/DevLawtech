@@ -1,108 +1,80 @@
-html, body{
-	font-size:16px;
-	color: #dfdfdf;
-	background-color: #063647; 
+canvas {
+  display: block;
+  vertical-align: bottom;
 }
 
-a {
-  color: #00d1b2;
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
 }
 
-a:hover {
-  color: #00d1b2;
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-section{
-	padding-top: 3rem;
-	padding-bottom: 3rem;
+.image {
+  border-radius: 90%;
+
 }
 
-.section-1 {
-	background: #063647;
+.header1 {
+  font-family: 'Righteous', cursive;
+  font-size: 6vw;
 }
 
-.section-2 {
-	background-color: #052D3D;
+.header2 {
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 1.4vw;
 }
 
-.section-3 {
-	background-color: #0E282E;
+.header3 {
+  font-family: 'Ubuntu Mono', monospace;
+  font-size:30px;
+  margin-top:-20px;
 }
 
-.section-4 {
-	background-color: #063647;
-	padding: 0.2rem;
+.link1 {
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 2.8vw;
+  color: inherit;
+  margin: 0px 5px 0px 5px;
+  transition: 0.5s;
 }
 
-a.nav-item {
-	color: #dfdfdf;
+.link1:hover {
+  color: #fc7a00;
 }
 
-a.nav-item:hover {
-	color: #fff;
+@media screen and (max-width: 785px) {
+  .header1 {
+    font-size: 8vw;
+  }
+  .link1 {
+    font-size: 4vw;
+  }
 }
 
-.avatar{
-	height:200px;
-	border-radius: 50%;
+@media screen and (max-width: 765px) {
+  body {
+    text-align: center;
+  }
+  .header1 {
+    font-size: 9vw;
+  }
+  .header2 {
+    font-size: 2.5vw;
+  }
+  .link1 {
+    font-size: 5vw;
+  }
 }
 
-.intro-description{
-	padding-top: 1rem;
-}
-
-.social-container img{
-	max-width:100%;
-	max-height:175px;
-	margin-bottom:15px;
-}
-
-.project-figure {
-	margin: 0 auto 1rem auto;
-	max-height: 256px;
-	max-width: 256px;
-}
-
-.project-text {
-	text-align: justify;
-}
-
-.box {
-	background-color: transparent;
-	border: 2px solid rgba(7, 59, 79, 0.5);
-}
-
-.title {
-	color: #fff;
-	text-align: left;
-	margin-bottom: 2rem;
-}
-
-.intro {
-	text-align: justify;
-	width: 80%;
-	margin: 0 auto;
-}
-
-.void-background {
-	background-color: transparent; 
-}
-
-@media screen and (max-width: 768px) {
-	.nav-menu {
-		background-color: #063647;
-	}
-
-	.nav-toggle:hover {
-		background-color: transparent;
-	}
-
-	.nav-toggle span {
-		background-color: #dfdfdf;
-	}
-
-	.nav-toggle span:hover {
-		background-color: #fff;
-	}
-
+@media screen and (min-width: 1390px) {
+  .header2 {
+    font-size: 1.2vw;
+  }
 }
