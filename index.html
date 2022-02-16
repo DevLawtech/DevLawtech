@@ -1,51 +1,86 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Gabriel Machado</title>
-  <meta name="author" content="name">
-  <meta name="description" content="Pentester and Front & Back-end Developer">
-  <link rel="icon" type="image/x-icon" href="img/bug.png">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Righteous|Ubuntu+Mono&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/main.css" type="text/css">
-  </head>
-  <body>
-  <div id="particles-js"></div>
-  <div class="container">
-    <div class="center">
-      <div class="row d-flex flex-wrap align-items-center">
-        <div class="col-md-5">
-          <img class="image img-fluid" src="img/avatar.png" alt="Devlaw">
-        </div>
-        <div class="col-md">
-          <p class="header1">Devlaw</p>
-          <p class="header3">Gabriel Machado</p>
-          <p class="header2">Pentester / Dev / Empreendedor</p>
-          <form action="http://www.google.com/custom" method="GET" target="_blank">
-            <td align="center">
-               <input style="text-align: center;" placeholder="Google Search" type="text" name="q" size="22"> 
-            </td>
-            <td width="5"></td>
-            <td align="right" valign="bottom">
-               <input type="submit" name="buscar" value="Buscar">
-            </td>
-          </form>
-          <a class="link1" href="https://linkedin.com/in/gabriel-machado-769a36177/" data-toggle="tooltip" data-placement="bottom" title="Linkedin"><i class="fab fa-linkedin"></i></a>
-          <a class="link1" href="https://discord.gg/Uq2mgCSZA2" data-toggle="tooltip" data-placement="bottom" title="Discord"><i class="fab fa-discord"></i></a>
-          <a class="link1" href="https://github.com/secdevdf" data-toggle="tooltip" data-placement="bottom" title="Github"><i class="fab fa-github"></i></a>
-         <!-- <a class="link1" href="https://instagram.com/kodeinonbrain666" data-toggle="tooltip" data-placement="bottom" title="Instagram"><i class="fab fa-instagram"></i></a> -->
-          <a class="link1" href="https://twitch.com/moosh061" data-toggle="tooltip" data-placement="bottom" title="Twitch"><i class="fab fa-twitch"></i></a>
-        </div>
-      </div>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Devlaw@pentestbox</title>
+  <link rel="icon" type="image/x-icon" href="imgs/logo.png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header id="header">
+    <a href="/"><img src="imgs/logo.png" id="logo"></a>
+    <h2 id="titulo-nav"></h2>
+    <nav id="nav">
+      <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
+        <span id="hamburger"></span>
+      </button>
+      <ul id="menu" role="menu">
+        <li><a href="/">Home</a></li>
+        <li><a href="/">Sobre</a></li>
+        <li><a href="/">Produtos</a></li>
+        <li><a href="/">Portfólio</a></li>
+        <li><a href="/">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section id="first-section">
+    <img src="imgs/logo.png" id="top-logo">
+    <h1>Devlaw@pentestbox</h1>
+    <h1 class="typer">
+      <p class="typewrite" data-period="2000"
+        data-type='[ "Hi, Im Gabriel Machado.", "I like new ideas.", "I Love Pentesting...", "and the Develop." ]'>
+        <span class="wrap"></span>
+      </p>
+    </h1>
+  </section>
+  <div id="Sobre"></div>
+  <section class="second-section">
+    <br>
+    <div id="apresenta">
+      <img id="avatar" src="imgs/avatar.png">
+      <h2>Olá mundo</h2>
+      <h3> Sou Gabriel Machado</h3>
     </div>
-  </div>
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
-  <script src="js/main.js"></script>
-  </body>
+    <p id="about-desc">Programador & Pentester<br> tenho 22 anos de idade, apaixonado por tecnologia amo trabalhar com
+      segurança e desenvolvimento.<br> Já trabalhei em diversos projetos de desenvolvimento de sites, softwares e
+      análise de segurança<br> atualmente venho estudando massivamente sobre ambas as áreas e me aprofundado mais e mais
+      em relação ao assunto.</p>  
+  </section>
+  <section class="third-section" id="projects" name="projects">
+      <h1>Projects</h1>
+      <h3>🤖 Chatbots 🤖 </h3>
+      <img class="bot-gif2" src="imgs/bot.gif">
+      <p class="project-desc">criados para automatizar o processo de vendas e execução de tarefas,<br>
+        nossos bots são feitos sob medida para o melhor desempenho no atendimento<br>
+        tornando o trabalho mais fácil e permitindo que você tenha mais tempo.</p>
+        
+      <hr> 
+      <h3>👾 Bug Hunting 👾</h3>
+      <img src="imgs/cyber11.gif" class="bot-gif">
+      <div class="project-desc2"> Com quase 10 anos de estudos na área da tecnologia, grande parte do meu conhecimento <br>vem em base da segurança onde aprendi e venho aprendendo como os sistemas e serviços<br> se comportam em seu Back-End, oque me dá a capacidade de explorar os serviços<br> de maneira mais abrangente e replicar de maneira segura e controlada.</div>
+      <hr>  
+      <h3>⚙️ Soluções em Tecnologia 🛠</h3>
+      <p class="project-desc3">Desde desenvolvimento de websites,<br> tenho experiências no desenvolvimento de servidores de backup <br>entre outras soluções tecnologicas para o bom desempenho de sua empresa .<br><br> Seja presencial ou remoto,<br> Estou a disposição e em busca de novos projetos, venha fazer um orçamento!!!<img style="border-radius: 90px;"class="bot-gif3" src="imgs/devels.gif"></p>
+    <br><br>
+    </section>
+    <section class="fourty-section">
+      <div id="contato"></div>
+      <br><h1> Contato</h1>
+      <div class="vertical-line"><a href="mailto:secdevdf@gmail.com"><h3> Email </h3></a></div>
+      <div class="vertical-line"><a href="http://github.com/secdevdf/"><h3> Github </h3></a></div>
+      <div class="vertical-line"><a href="https://discord.gg/Uq2mgCSZA2"><h3> Discord </h3></a></div>
+      <div class="vertical-line"><a href="https://www.youtube.com/channel/UCMQKKrjMxflR0xEBz6sFK6g"><h3> Youtube </h3></a></div>
+      <div class="vertical-line"><a href="https://www.instagram.com/bielmxd/"><h3> Instagram </h3></a></div>
+      <br><br>
+    </section>
+    <section class="section2">
+      <p>© 2015-2022 Licensed</p><p class="rodape-license"> Gabriel Machado</p>
+      </section>
+  <script src="js/script.js"></script>
+</body>
+
 </html>
