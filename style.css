@@ -152,7 +152,6 @@ hr{
   -ms-transform: scale(2.0); /* IE 9 */
   -webkit-transform: scale(2.0); /* Safari 3-8 */
   transform: scale(2.0); 
-  border: 0.5px solid #181818;
 }
 
 #chatbot-gif{
