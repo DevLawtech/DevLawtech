@@ -41,7 +41,8 @@
     <section class="first-section">
       <h1> Hello World 😊</h1>
       <center>
-      <img id="avatar" src="imgs/avatar.png">
+        <img style="width: 200px;height: 200px;" id="avatar" src="icons/logo.svg">
+      <!--img id="avatar" src="imgs/avatar.png" -->
       <h4>I am </h4><h2 style="margin-top:-25px;">Gabriel Machado</h2><h2 id='tpw'></h2>
       <h1 class="typer">
         <h3 class="typewrite" data-period="2000" data-type='[ "I like new ideas.", "I Love Pentesting...", "and the Develop." ]'>
@@ -132,26 +133,21 @@
 
     <section class="grid2">
       <div class="video">
-        <video controls src="./videos/whatsapp_cobrador.mp4">
-          </video>
-        <h2>Whatsapp Billing Bot in production.</h2>
+        <iframe id="apresentation" src="https://www.youtube.com/embed/fVzlREKat_I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <h2 id="video-title" >Whatsapp Chat Bot in production.</h2>
       </div>
       <div class="sidebar">
         <div>
-          <a href="https://youtu.be/poGDwaB5NUw"><img class="zoom" src="./imgs/youtube_telegram.png"></a>
-          <p>Telegram Bot Youtube Music Downloader</p>
+          <img id='video-select1' onclick="video1()" class="" src="./imgs/whatsapp_chatbot.jpg">
+          <p id='video-subtitle'>Whatsapp Chat Bot in production</p>
         </div>
         <div>
-          <img class="zoom" src="./imgs/in_construction.png">
-          <p>In construction</p>
+          <img id='video-select2' onclick="video2()"class="" src="./imgs/youtube_telegram.png">
+          <p id='video-subtitle'>Youtube Download Telegram Bot </p>
         </div>
         <div>
-          <img class="zoom" src="./imgs/in_construction.png">
-          <p>In construction</p>
-        </div>
-        <div>
-          <img class="zoom" src="./imgs/in_construction.png">
-          <p>In construction</p>
+          <img id='video-select3' onclick="video3()" class="" src="./imgs/chronos_desktop.jpg">
+          <p id='video-subtitle'>Chronosbot Desktop Apresentation</p>
         </div>
       </div>
     </section>
@@ -164,12 +160,12 @@
         <p>Whatsapp Bot</p></a>
       </div>
       <div class="grid3-item">
-        <a href="https://github.com/secdevdf/youtube_telegram_bot"><img src="./imgs/youtube_telegram.png">
+        <a href="https://github.com/secdevdf/youtube_telegram_bot"><img onclick="show()" src="./imgs/youtube_telegram.png">
         <p>Telegram Bot Youtube Music Downloader</p></a>
       </div>
       <div class="grid3-item">
-        <img src="./imgs/in_construction.png">
-        <p>In construction</p>
+        <a href="https://www.youtube.com/watch?v=9A7BPFIwGco"><img src="./imgs/chronos_desktop.jpg">
+        <p>Chronosbot Desktop Apresentation</p></a>
       </div>
     </section>
     <div id="skills"></div>
