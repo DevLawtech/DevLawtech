@@ -87,3 +87,18 @@ window.onload = function() {
   css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid black}";
   document.body.appendChild(css);
 };
+// video changer
+
+function video1() {
+  document.getElementById("apresentation").src = "https://www.youtube.com/embed/fVzlREKat_I";
+  document.getElementById("video-title").innerHTML = "Whatsapp Billing Bot in production.";
+
+}
+function video2() {
+  document.getElementById("apresentation").src = "https://www.youtube.com/embed/mhdW3orXcwY";
+  document.getElementById("video-title").innerHTML = "Youtube Download Telegram Bot";
+}
+function video3() { 
+  document.getElementById("apresentation").src = "https://www.youtube.com/embed/9A7BPFIwGco";
+  document.getElementById("video-title").innerHTML = "Chronosbot Desktop Apresentation";
+}
