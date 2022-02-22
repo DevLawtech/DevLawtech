@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
 }
+
 html{
   scroll-behavior: smooth;
 }
@@ -107,7 +108,7 @@ hr{
   justify-content: space-between;
   background: black;
   position:fixed;
-  margin-top:-100px;
+  top:0;
   opacity: 100%;
   z-index: 10000;
 }
@@ -117,6 +118,7 @@ hr{
   list-style: none;
   gap: 0.5rem;
   opacity: 100%;
+  margin-right: -100px;
   
 }
 
@@ -197,7 +199,7 @@ video{
   color:black;
 }
 .grid1 a:hover{
-  color:white;
+  color:gray;
   background:transparent;
   border-radius: 90px;
   opacity: 90%;
@@ -218,6 +220,7 @@ video{
 .grid3-skills{
 
 }
+
 
 @media (max-width: 600px) {
   .grid1 {
